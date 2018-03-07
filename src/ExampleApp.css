@@ -1,0 +1,48 @@
+.ExampleApp {
+  height: 50vh;
+  min-height: 200px;
+  margin: 10px;
+}
+
+@font-face {
+  font-family: 'TitilliumRegular';
+  src: url('./assets/fonts/titillium/TitilliumWeb-Regular.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TitilliumBold';
+  src: url('./assets/fonts/titillium/TitilliumWeb-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: 'TitilliumRegular';
+}
+
+.TestButton {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.TestButton button {
+  width: 100%;
+  background-color: #23d7c8;
+  cursor: pointer;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  transition: opacity 0.3s;
+  color: white;
+  font-size: 12px;
+  outline: none;
+}
+
+.TestButton button:hover {
+  opacity: 0.8;
+}

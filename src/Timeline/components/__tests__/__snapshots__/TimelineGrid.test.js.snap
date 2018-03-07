@@ -1,0 +1,1010 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component rendering right render props right match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TimelineGrid
+    unitWidth={150}
+    units={
+        Array [
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "0px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "150px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "300px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "450px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "600px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "750px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "900px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "1050px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "1200px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "1350px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "1500px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "1650px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "1800px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "1950px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "2100px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "2250px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "2400px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "2550px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "2700px",
+                            }
+          }
+/>,
+        <div
+          className="TimelineGrid__Line"
+          style={
+                    Object {
+                              "left": "2850px",
+                            }
+          }
+/>,
+      ],
+      "className": "TimelineGrid",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "grid_0",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "0px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_1",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "150px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_2",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "300px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_3",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "450px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_4",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "600px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_5",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "750px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_6",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "900px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_7",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "1050px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_8",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "1200px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_9",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "1350px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_10",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "1500px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_11",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "1650px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_12",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "1800px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_13",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "1950px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_14",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "2100px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_15",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "2250px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_16",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "2400px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_17",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "2550px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_18",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "2700px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "grid_19",
+        "nodeType": "host",
+        "props": Object {
+          "className": "TimelineGrid__Line",
+          "style": Object {
+            "left": "2850px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "0px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "150px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "300px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "450px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "600px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "750px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "900px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "1050px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "1200px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "1350px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "1500px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "1650px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "1800px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "1950px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "2100px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "2250px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "2400px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "2550px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "2700px",
+                                  }
+            }
+/>,
+          <div
+            className="TimelineGrid__Line"
+            style={
+                        Object {
+                                    "left": "2850px",
+                                  }
+            }
+/>,
+        ],
+        "className": "TimelineGrid",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "grid_0",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "0px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_1",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "150px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_2",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "300px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_3",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "450px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_4",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "600px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_5",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "750px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_6",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "900px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_7",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "1050px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_8",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "1200px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_9",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "1350px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_10",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "1500px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_11",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "1650px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_12",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "1800px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_13",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "1950px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_14",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "2100px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_15",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "2250px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_16",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "2400px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_17",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "2550px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_18",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "2700px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "grid_19",
+          "nodeType": "host",
+          "props": Object {
+            "className": "TimelineGrid__Line",
+            "style": Object {
+              "left": "2850px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`component rendering right render with empty props match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TimelineGrid
+    unitWidth={0}
+    units={Array []}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [],
+      "className": "TimelineGrid",
+    },
+    "ref": null,
+    "rendered": Array [],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [],
+        "className": "TimelineGrid",
+      },
+      "ref": null,
+      "rendered": Array [],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

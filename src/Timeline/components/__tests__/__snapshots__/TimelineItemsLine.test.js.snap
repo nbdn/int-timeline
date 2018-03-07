@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimelineItemsLine component test component rendering right render props right match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TimelineItemsLine
+    end={50}
+    lineIndex={0}
+    linesCount={1}
+    start={5}
+    unitWidth={150}
+>
+    
+</TimelineItemsLine>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": "timeline_line_0",
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [],
+      "className": "TimelineItemsGroup__Line",
+      "style": Object {
+        "height": "100%",
+        "width": 6750,
+      },
+    },
+    "ref": null,
+    "rendered": Array [],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": "timeline_line_0",
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [],
+        "className": "TimelineItemsGroup__Line",
+        "style": Object {
+          "height": "100%",
+          "width": 6750,
+        },
+      },
+      "ref": null,
+      "rendered": Array [],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`TimelineItemsLine component test component rendering right render with empty props match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TimelineItemsLine
+    end={0}
+    lineIndex={0}
+    linesCount={0}
+    start={0}
+    unitWidth={0}
+>
+    
+</TimelineItemsLine>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": "timeline_line_0",
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [],
+      "className": "TimelineItemsGroup__Line",
+      "style": Object {
+        "height": "Infinity%",
+        "width": 0,
+      },
+    },
+    "ref": null,
+    "rendered": Array [],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": "timeline_line_0",
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [],
+        "className": "TimelineItemsGroup__Line",
+        "style": Object {
+          "height": "Infinity%",
+          "width": 0,
+        },
+      },
+      "ref": null,
+      "rendered": Array [],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

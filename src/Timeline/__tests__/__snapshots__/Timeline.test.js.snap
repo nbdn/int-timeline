@@ -1,0 +1,1509 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component rendering right renders trials right 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Timeline
+    refreshOnResize={true}
+    scrollConfig={
+        Object {
+            "breakpoint": 50,
+            "unitWidth": 200,
+          }
+    }
+    startDate="2000-01-01"
+    trials={
+        Array [
+            Object {
+              "end": 50,
+              "start": 5,
+              "title": "Study of Bendamustine",
+            },
+            Object {
+              "end": 85,
+              "start": 55,
+              "title": "ASCT With Nivolumab",
+            },
+            Object {
+              "end": 72,
+              "start": 60,
+              "title": "Bortezomib",
+            },
+            Object {
+              "end": 100,
+              "start": 70,
+              "title": "Study of Stockolm",
+            },
+            Object {
+              "end": 110,
+              "start": 90,
+              "title": "Qicong",
+            },
+            Object {
+              "end": 129,
+              "start": 90,
+              "title": "Bortezomib",
+            },
+            Object {
+              "end": 150,
+              "start": 90,
+              "title": "Continuation",
+            },
+            Object {
+              "end": 160,
+              "start": 140,
+              "title": "Hypnotherappy",
+            },
+            Object {
+              "end": 190,
+              "start": 161,
+              "title": "Cancer treatments",
+            },
+            Object {
+              "end": 220,
+              "start": 200,
+              "title": "Cancer treatments",
+            },
+            Object {
+              "end": 230,
+              "start": 205,
+              "title": "Qicong",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        "",
+        <Unknown>
+          <div
+                    className="TimelineItemsGroupsWrapper"
+          >
+                    <TimelineGrid
+                              unitWidth={200}
+                              units={
+                                        Array [
+                                                  2000,
+                                                  2001,
+                                                  2002,
+                                                  2003,
+                                                  2004,
+                                                  2005,
+                                                  2006,
+                                                  2007,
+                                                  2008,
+                                                  2009,
+                                                  2010,
+                                                  2011,
+                                                  2012,
+                                                  2013,
+                                                  2014,
+                                                  2015,
+                                                  2016,
+                                                  2017,
+                                                  2018,
+                                                  2019,
+                                                ]
+                              }
+                    />
+                    <TimelineItemsGroup
+                              groupEnd={50}
+                              groupStart={5}
+                              items={
+                                        Array [
+                                                  Array [
+                                                    Object {
+                                                      "end": 50,
+                                                      "start": 5,
+                                                      "title": "Study of Bendamustine",
+                                                    },
+                                                  ],
+                                                ]
+                              }
+                              unitWidth={16.666666666666668}
+                    />
+                    <TimelineItemsGroup
+                              groupEnd={160}
+                              groupStart={55}
+                              items={
+                                        Array [
+                                                  Array [
+                                                    Object {
+                                                      "end": 85,
+                                                      "start": 55,
+                                                      "title": "ASCT With Nivolumab",
+                                                    },
+                                                    Object {
+                                                      "end": 110,
+                                                      "start": 90,
+                                                      "title": "Qicong",
+                                                    },
+                                                    Object {
+                                                      "end": 160,
+                                                      "start": 140,
+                                                      "title": "Hypnotherappy",
+                                                    },
+                                                  ],
+                                                  Array [
+                                                    Object {
+                                                      "end": 72,
+                                                      "start": 60,
+                                                      "title": "Bortezomib",
+                                                    },
+                                                    Object {
+                                                      "end": 129,
+                                                      "start": 90,
+                                                      "title": "Bortezomib",
+                                                    },
+                                                  ],
+                                                  Array [
+                                                    Object {
+                                                      "end": 100,
+                                                      "start": 70,
+                                                      "title": "Study of Stockolm",
+                                                    },
+                                                  ],
+                                                  Array [
+                                                    Object {
+                                                      "end": 150,
+                                                      "start": 90,
+                                                      "title": "Continuation",
+                                                    },
+                                                  ],
+                                                ]
+                              }
+                              unitWidth={16.666666666666668}
+                    />
+                    <TimelineItemsGroup
+                              groupEnd={190}
+                              groupStart={161}
+                              items={
+                                        Array [
+                                                  Array [
+                                                    Object {
+                                                      "end": 190,
+                                                      "start": 161,
+                                                      "title": "Cancer treatments",
+                                                    },
+                                                  ],
+                                                ]
+                              }
+                              unitWidth={16.666666666666668}
+                    />
+                    <TimelineItemsGroup
+                              groupEnd={230}
+                              groupStart={200}
+                              items={
+                                        Array [
+                                                  Array [
+                                                    Object {
+                                                      "end": 220,
+                                                      "start": 200,
+                                                      "title": "Cancer treatments",
+                                                    },
+                                                  ],
+                                                  Array [
+                                                    Object {
+                                                      "end": 230,
+                                                      "start": 205,
+                                                      "title": "Qicong",
+                                                    },
+                                                  ],
+                                                ]
+                              }
+                              unitWidth={16.666666666666668}
+                    />
+          </div>
+          <TimelineRule
+                    unitWidth={200}
+                    units={
+                              Array [
+                                        2000,
+                                        2001,
+                                        2002,
+                                        2003,
+                                        2004,
+                                        2005,
+                                        2006,
+                                        2007,
+                                        2008,
+                                        2009,
+                                        2010,
+                                        2011,
+                                        2012,
+                                        2013,
+                                        2014,
+                                        2015,
+                                        2016,
+                                        2017,
+                                        2018,
+                                        2019,
+                                      ]
+                    }
+          />
+</Unknown>,
+      ],
+      "className": "Timeline",
+    },
+    "ref": [Function],
+    "rendered": Array [
+      "",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <div
+              className="TimelineItemsGroupsWrapper"
+>
+              <TimelineGrid
+                            unitWidth={200}
+                            units={
+                                          Array [
+                                                        2000,
+                                                        2001,
+                                                        2002,
+                                                        2003,
+                                                        2004,
+                                                        2005,
+                                                        2006,
+                                                        2007,
+                                                        2008,
+                                                        2009,
+                                                        2010,
+                                                        2011,
+                                                        2012,
+                                                        2013,
+                                                        2014,
+                                                        2015,
+                                                        2016,
+                                                        2017,
+                                                        2018,
+                                                        2019,
+                                                      ]
+                            }
+              />
+              <TimelineItemsGroup
+                            groupEnd={50}
+                            groupStart={5}
+                            items={
+                                          Array [
+                                                        Array [
+                                                          Object {
+                                                            "end": 50,
+                                                            "start": 5,
+                                                            "title": "Study of Bendamustine",
+                                                          },
+                                                        ],
+                                                      ]
+                            }
+                            unitWidth={16.666666666666668}
+              />
+              <TimelineItemsGroup
+                            groupEnd={160}
+                            groupStart={55}
+                            items={
+                                          Array [
+                                                        Array [
+                                                          Object {
+                                                            "end": 85,
+                                                            "start": 55,
+                                                            "title": "ASCT With Nivolumab",
+                                                          },
+                                                          Object {
+                                                            "end": 110,
+                                                            "start": 90,
+                                                            "title": "Qicong",
+                                                          },
+                                                          Object {
+                                                            "end": 160,
+                                                            "start": 140,
+                                                            "title": "Hypnotherappy",
+                                                          },
+                                                        ],
+                                                        Array [
+                                                          Object {
+                                                            "end": 72,
+                                                            "start": 60,
+                                                            "title": "Bortezomib",
+                                                          },
+                                                          Object {
+                                                            "end": 129,
+                                                            "start": 90,
+                                                            "title": "Bortezomib",
+                                                          },
+                                                        ],
+                                                        Array [
+                                                          Object {
+                                                            "end": 100,
+                                                            "start": 70,
+                                                            "title": "Study of Stockolm",
+                                                          },
+                                                        ],
+                                                        Array [
+                                                          Object {
+                                                            "end": 150,
+                                                            "start": 90,
+                                                            "title": "Continuation",
+                                                          },
+                                                        ],
+                                                      ]
+                            }
+                            unitWidth={16.666666666666668}
+              />
+              <TimelineItemsGroup
+                            groupEnd={190}
+                            groupStart={161}
+                            items={
+                                          Array [
+                                                        Array [
+                                                          Object {
+                                                            "end": 190,
+                                                            "start": 161,
+                                                            "title": "Cancer treatments",
+                                                          },
+                                                        ],
+                                                      ]
+                            }
+                            unitWidth={16.666666666666668}
+              />
+              <TimelineItemsGroup
+                            groupEnd={230}
+                            groupStart={200}
+                            items={
+                                          Array [
+                                                        Array [
+                                                          Object {
+                                                            "end": 220,
+                                                            "start": 200,
+                                                            "title": "Cancer treatments",
+                                                          },
+                                                        ],
+                                                        Array [
+                                                          Object {
+                                                            "end": 230,
+                                                            "start": 205,
+                                                            "title": "Qicong",
+                                                          },
+                                                        ],
+                                                      ]
+                            }
+                            unitWidth={16.666666666666668}
+              />
+</div>,
+            <TimelineRule
+              unitWidth={200}
+              units={
+                            Array [
+                                          2000,
+                                          2001,
+                                          2002,
+                                          2003,
+                                          2004,
+                                          2005,
+                                          2006,
+                                          2007,
+                                          2008,
+                                          2009,
+                                          2010,
+                                          2011,
+                                          2012,
+                                          2013,
+                                          2014,
+                                          2015,
+                                          2016,
+                                          2017,
+                                          2018,
+                                          2019,
+                                        ]
+              }
+/>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "timeline_items",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <TimelineGrid
+                  unitWidth={200}
+                  units={
+                                    Array [
+                                                      2000,
+                                                      2001,
+                                                      2002,
+                                                      2003,
+                                                      2004,
+                                                      2005,
+                                                      2006,
+                                                      2007,
+                                                      2008,
+                                                      2009,
+                                                      2010,
+                                                      2011,
+                                                      2012,
+                                                      2013,
+                                                      2014,
+                                                      2015,
+                                                      2016,
+                                                      2017,
+                                                      2018,
+                                                      2019,
+                                                    ]
+                  }
+/>,
+                Array [
+                  <TimelineItemsGroup
+                    groupEnd={50}
+                    groupStart={5}
+                    items={
+                                        Array [
+                                                            Array [
+                                                              Object {
+                                                                "end": 50,
+                                                                "start": 5,
+                                                                "title": "Study of Bendamustine",
+                                                              },
+                                                            ],
+                                                          ]
+                    }
+                    unitWidth={16.666666666666668}
+/>,
+                  <TimelineItemsGroup
+                    groupEnd={160}
+                    groupStart={55}
+                    items={
+                                        Array [
+                                                            Array [
+                                                              Object {
+                                                                "end": 85,
+                                                                "start": 55,
+                                                                "title": "ASCT With Nivolumab",
+                                                              },
+                                                              Object {
+                                                                "end": 110,
+                                                                "start": 90,
+                                                                "title": "Qicong",
+                                                              },
+                                                              Object {
+                                                                "end": 160,
+                                                                "start": 140,
+                                                                "title": "Hypnotherappy",
+                                                              },
+                                                            ],
+                                                            Array [
+                                                              Object {
+                                                                "end": 72,
+                                                                "start": 60,
+                                                                "title": "Bortezomib",
+                                                              },
+                                                              Object {
+                                                                "end": 129,
+                                                                "start": 90,
+                                                                "title": "Bortezomib",
+                                                              },
+                                                            ],
+                                                            Array [
+                                                              Object {
+                                                                "end": 100,
+                                                                "start": 70,
+                                                                "title": "Study of Stockolm",
+                                                              },
+                                                            ],
+                                                            Array [
+                                                              Object {
+                                                                "end": 150,
+                                                                "start": 90,
+                                                                "title": "Continuation",
+                                                              },
+                                                            ],
+                                                          ]
+                    }
+                    unitWidth={16.666666666666668}
+/>,
+                  <TimelineItemsGroup
+                    groupEnd={190}
+                    groupStart={161}
+                    items={
+                                        Array [
+                                                            Array [
+                                                              Object {
+                                                                "end": 190,
+                                                                "start": 161,
+                                                                "title": "Cancer treatments",
+                                                              },
+                                                            ],
+                                                          ]
+                    }
+                    unitWidth={16.666666666666668}
+/>,
+                  <TimelineItemsGroup
+                    groupEnd={230}
+                    groupStart={200}
+                    items={
+                                        Array [
+                                                            Array [
+                                                              Object {
+                                                                "end": 220,
+                                                                "start": 200,
+                                                                "title": "Cancer treatments",
+                                                              },
+                                                            ],
+                                                            Array [
+                                                              Object {
+                                                                "end": 230,
+                                                                "start": 205,
+                                                                "title": "Qicong",
+                                                              },
+                                                            ],
+                                                          ]
+                    }
+                    unitWidth={16.666666666666668}
+/>,
+                ],
+              ],
+              "className": "TimelineItemsGroupsWrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "unitWidth": 200,
+                  "units": Array [
+                    2000,
+                    2001,
+                    2002,
+                    2003,
+                    2004,
+                    2005,
+                    2006,
+                    2007,
+                    2008,
+                    2009,
+                    2010,
+                    2011,
+                    2012,
+                    2013,
+                    2014,
+                    2015,
+                    2016,
+                    2017,
+                    2018,
+                    2019,
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "timeine_items_group_0",
+                "nodeType": "function",
+                "props": Object {
+                  "groupEnd": 50,
+                  "groupStart": 5,
+                  "items": Array [
+                    Array [
+                      Object {
+                        "end": 50,
+                        "start": 5,
+                        "title": "Study of Bendamustine",
+                      },
+                    ],
+                  ],
+                  "unitWidth": 16.666666666666668,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "timeine_items_group_1",
+                "nodeType": "function",
+                "props": Object {
+                  "groupEnd": 160,
+                  "groupStart": 55,
+                  "items": Array [
+                    Array [
+                      Object {
+                        "end": 85,
+                        "start": 55,
+                        "title": "ASCT With Nivolumab",
+                      },
+                      Object {
+                        "end": 110,
+                        "start": 90,
+                        "title": "Qicong",
+                      },
+                      Object {
+                        "end": 160,
+                        "start": 140,
+                        "title": "Hypnotherappy",
+                      },
+                    ],
+                    Array [
+                      Object {
+                        "end": 72,
+                        "start": 60,
+                        "title": "Bortezomib",
+                      },
+                      Object {
+                        "end": 129,
+                        "start": 90,
+                        "title": "Bortezomib",
+                      },
+                    ],
+                    Array [
+                      Object {
+                        "end": 100,
+                        "start": 70,
+                        "title": "Study of Stockolm",
+                      },
+                    ],
+                    Array [
+                      Object {
+                        "end": 150,
+                        "start": 90,
+                        "title": "Continuation",
+                      },
+                    ],
+                  ],
+                  "unitWidth": 16.666666666666668,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "timeine_items_group_2",
+                "nodeType": "function",
+                "props": Object {
+                  "groupEnd": 190,
+                  "groupStart": 161,
+                  "items": Array [
+                    Array [
+                      Object {
+                        "end": 190,
+                        "start": 161,
+                        "title": "Cancer treatments",
+                      },
+                    ],
+                  ],
+                  "unitWidth": 16.666666666666668,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "timeine_items_group_3",
+                "nodeType": "function",
+                "props": Object {
+                  "groupEnd": 230,
+                  "groupStart": 200,
+                  "items": Array [
+                    Array [
+                      Object {
+                        "end": 220,
+                        "start": 200,
+                        "title": "Cancer treatments",
+                      },
+                    ],
+                    Array [
+                      Object {
+                        "end": 230,
+                        "start": 205,
+                        "title": "Qicong",
+                      },
+                    ],
+                  ],
+                  "unitWidth": 16.666666666666668,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "unitWidth": 200,
+              "units": Array [
+                2000,
+                2001,
+                2002,
+                2003,
+                2004,
+                2005,
+                2006,
+                2007,
+                2008,
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": Symbol(react.fragment),
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          "",
+          <Unknown>
+            <div
+                        className="TimelineItemsGroupsWrapper"
+            >
+                        <TimelineGrid
+                                    unitWidth={200}
+                                    units={
+                                                Array [
+                                                            2000,
+                                                            2001,
+                                                            2002,
+                                                            2003,
+                                                            2004,
+                                                            2005,
+                                                            2006,
+                                                            2007,
+                                                            2008,
+                                                            2009,
+                                                            2010,
+                                                            2011,
+                                                            2012,
+                                                            2013,
+                                                            2014,
+                                                            2015,
+                                                            2016,
+                                                            2017,
+                                                            2018,
+                                                            2019,
+                                                          ]
+                                    }
+                        />
+                        <TimelineItemsGroup
+                                    groupEnd={50}
+                                    groupStart={5}
+                                    items={
+                                                Array [
+                                                            Array [
+                                                              Object {
+                                                                "end": 50,
+                                                                "start": 5,
+                                                                "title": "Study of Bendamustine",
+                                                              },
+                                                            ],
+                                                          ]
+                                    }
+                                    unitWidth={16.666666666666668}
+                        />
+                        <TimelineItemsGroup
+                                    groupEnd={160}
+                                    groupStart={55}
+                                    items={
+                                                Array [
+                                                            Array [
+                                                              Object {
+                                                                "end": 85,
+                                                                "start": 55,
+                                                                "title": "ASCT With Nivolumab",
+                                                              },
+                                                              Object {
+                                                                "end": 110,
+                                                                "start": 90,
+                                                                "title": "Qicong",
+                                                              },
+                                                              Object {
+                                                                "end": 160,
+                                                                "start": 140,
+                                                                "title": "Hypnotherappy",
+                                                              },
+                                                            ],
+                                                            Array [
+                                                              Object {
+                                                                "end": 72,
+                                                                "start": 60,
+                                                                "title": "Bortezomib",
+                                                              },
+                                                              Object {
+                                                                "end": 129,
+                                                                "start": 90,
+                                                                "title": "Bortezomib",
+                                                              },
+                                                            ],
+                                                            Array [
+                                                              Object {
+                                                                "end": 100,
+                                                                "start": 70,
+                                                                "title": "Study of Stockolm",
+                                                              },
+                                                            ],
+                                                            Array [
+                                                              Object {
+                                                                "end": 150,
+                                                                "start": 90,
+                                                                "title": "Continuation",
+                                                              },
+                                                            ],
+                                                          ]
+                                    }
+                                    unitWidth={16.666666666666668}
+                        />
+                        <TimelineItemsGroup
+                                    groupEnd={190}
+                                    groupStart={161}
+                                    items={
+                                                Array [
+                                                            Array [
+                                                              Object {
+                                                                "end": 190,
+                                                                "start": 161,
+                                                                "title": "Cancer treatments",
+                                                              },
+                                                            ],
+                                                          ]
+                                    }
+                                    unitWidth={16.666666666666668}
+                        />
+                        <TimelineItemsGroup
+                                    groupEnd={230}
+                                    groupStart={200}
+                                    items={
+                                                Array [
+                                                            Array [
+                                                              Object {
+                                                                "end": 220,
+                                                                "start": 200,
+                                                                "title": "Cancer treatments",
+                                                              },
+                                                            ],
+                                                            Array [
+                                                              Object {
+                                                                "end": 230,
+                                                                "start": 205,
+                                                                "title": "Qicong",
+                                                              },
+                                                            ],
+                                                          ]
+                                    }
+                                    unitWidth={16.666666666666668}
+                        />
+            </div>
+            <TimelineRule
+                        unitWidth={200}
+                        units={
+                                    Array [
+                                                2000,
+                                                2001,
+                                                2002,
+                                                2003,
+                                                2004,
+                                                2005,
+                                                2006,
+                                                2007,
+                                                2008,
+                                                2009,
+                                                2010,
+                                                2011,
+                                                2012,
+                                                2013,
+                                                2014,
+                                                2015,
+                                                2016,
+                                                2017,
+                                                2018,
+                                                2019,
+                                              ]
+                        }
+            />
+</Unknown>,
+        ],
+        "className": "Timeline",
+      },
+      "ref": [Function],
+      "rendered": Array [
+        "",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <div
+                className="TimelineItemsGroupsWrapper"
+>
+                <TimelineGrid
+                                unitWidth={200}
+                                units={
+                                                Array [
+                                                                2000,
+                                                                2001,
+                                                                2002,
+                                                                2003,
+                                                                2004,
+                                                                2005,
+                                                                2006,
+                                                                2007,
+                                                                2008,
+                                                                2009,
+                                                                2010,
+                                                                2011,
+                                                                2012,
+                                                                2013,
+                                                                2014,
+                                                                2015,
+                                                                2016,
+                                                                2017,
+                                                                2018,
+                                                                2019,
+                                                              ]
+                                }
+                />
+                <TimelineItemsGroup
+                                groupEnd={50}
+                                groupStart={5}
+                                items={
+                                                Array [
+                                                                Array [
+                                                                  Object {
+                                                                    "end": 50,
+                                                                    "start": 5,
+                                                                    "title": "Study of Bendamustine",
+                                                                  },
+                                                                ],
+                                                              ]
+                                }
+                                unitWidth={16.666666666666668}
+                />
+                <TimelineItemsGroup
+                                groupEnd={160}
+                                groupStart={55}
+                                items={
+                                                Array [
+                                                                Array [
+                                                                  Object {
+                                                                    "end": 85,
+                                                                    "start": 55,
+                                                                    "title": "ASCT With Nivolumab",
+                                                                  },
+                                                                  Object {
+                                                                    "end": 110,
+                                                                    "start": 90,
+                                                                    "title": "Qicong",
+                                                                  },
+                                                                  Object {
+                                                                    "end": 160,
+                                                                    "start": 140,
+                                                                    "title": "Hypnotherappy",
+                                                                  },
+                                                                ],
+                                                                Array [
+                                                                  Object {
+                                                                    "end": 72,
+                                                                    "start": 60,
+                                                                    "title": "Bortezomib",
+                                                                  },
+                                                                  Object {
+                                                                    "end": 129,
+                                                                    "start": 90,
+                                                                    "title": "Bortezomib",
+                                                                  },
+                                                                ],
+                                                                Array [
+                                                                  Object {
+                                                                    "end": 100,
+                                                                    "start": 70,
+                                                                    "title": "Study of Stockolm",
+                                                                  },
+                                                                ],
+                                                                Array [
+                                                                  Object {
+                                                                    "end": 150,
+                                                                    "start": 90,
+                                                                    "title": "Continuation",
+                                                                  },
+                                                                ],
+                                                              ]
+                                }
+                                unitWidth={16.666666666666668}
+                />
+                <TimelineItemsGroup
+                                groupEnd={190}
+                                groupStart={161}
+                                items={
+                                                Array [
+                                                                Array [
+                                                                  Object {
+                                                                    "end": 190,
+                                                                    "start": 161,
+                                                                    "title": "Cancer treatments",
+                                                                  },
+                                                                ],
+                                                              ]
+                                }
+                                unitWidth={16.666666666666668}
+                />
+                <TimelineItemsGroup
+                                groupEnd={230}
+                                groupStart={200}
+                                items={
+                                                Array [
+                                                                Array [
+                                                                  Object {
+                                                                    "end": 220,
+                                                                    "start": 200,
+                                                                    "title": "Cancer treatments",
+                                                                  },
+                                                                ],
+                                                                Array [
+                                                                  Object {
+                                                                    "end": 230,
+                                                                    "start": 205,
+                                                                    "title": "Qicong",
+                                                                  },
+                                                                ],
+                                                              ]
+                                }
+                                unitWidth={16.666666666666668}
+                />
+</div>,
+              <TimelineRule
+                unitWidth={200}
+                units={
+                                Array [
+                                                2000,
+                                                2001,
+                                                2002,
+                                                2003,
+                                                2004,
+                                                2005,
+                                                2006,
+                                                2007,
+                                                2008,
+                                                2009,
+                                                2010,
+                                                2011,
+                                                2012,
+                                                2013,
+                                                2014,
+                                                2015,
+                                                2016,
+                                                2017,
+                                                2018,
+                                                2019,
+                                              ]
+                }
+/>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "timeline_items",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <TimelineGrid
+                    unitWidth={200}
+                    units={
+                                        Array [
+                                                            2000,
+                                                            2001,
+                                                            2002,
+                                                            2003,
+                                                            2004,
+                                                            2005,
+                                                            2006,
+                                                            2007,
+                                                            2008,
+                                                            2009,
+                                                            2010,
+                                                            2011,
+                                                            2012,
+                                                            2013,
+                                                            2014,
+                                                            2015,
+                                                            2016,
+                                                            2017,
+                                                            2018,
+                                                            2019,
+                                                          ]
+                    }
+/>,
+                  Array [
+                    <TimelineItemsGroup
+                      groupEnd={50}
+                      groupStart={5}
+                      items={
+                                            Array [
+                                                                  Array [
+                                                                    Object {
+                                                                      "end": 50,
+                                                                      "start": 5,
+                                                                      "title": "Study of Bendamustine",
+                                                                    },
+                                                                  ],
+                                                                ]
+                      }
+                      unitWidth={16.666666666666668}
+/>,
+                    <TimelineItemsGroup
+                      groupEnd={160}
+                      groupStart={55}
+                      items={
+                                            Array [
+                                                                  Array [
+                                                                    Object {
+                                                                      "end": 85,
+                                                                      "start": 55,
+                                                                      "title": "ASCT With Nivolumab",
+                                                                    },
+                                                                    Object {
+                                                                      "end": 110,
+                                                                      "start": 90,
+                                                                      "title": "Qicong",
+                                                                    },
+                                                                    Object {
+                                                                      "end": 160,
+                                                                      "start": 140,
+                                                                      "title": "Hypnotherappy",
+                                                                    },
+                                                                  ],
+                                                                  Array [
+                                                                    Object {
+                                                                      "end": 72,
+                                                                      "start": 60,
+                                                                      "title": "Bortezomib",
+                                                                    },
+                                                                    Object {
+                                                                      "end": 129,
+                                                                      "start": 90,
+                                                                      "title": "Bortezomib",
+                                                                    },
+                                                                  ],
+                                                                  Array [
+                                                                    Object {
+                                                                      "end": 100,
+                                                                      "start": 70,
+                                                                      "title": "Study of Stockolm",
+                                                                    },
+                                                                  ],
+                                                                  Array [
+                                                                    Object {
+                                                                      "end": 150,
+                                                                      "start": 90,
+                                                                      "title": "Continuation",
+                                                                    },
+                                                                  ],
+                                                                ]
+                      }
+                      unitWidth={16.666666666666668}
+/>,
+                    <TimelineItemsGroup
+                      groupEnd={190}
+                      groupStart={161}
+                      items={
+                                            Array [
+                                                                  Array [
+                                                                    Object {
+                                                                      "end": 190,
+                                                                      "start": 161,
+                                                                      "title": "Cancer treatments",
+                                                                    },
+                                                                  ],
+                                                                ]
+                      }
+                      unitWidth={16.666666666666668}
+/>,
+                    <TimelineItemsGroup
+                      groupEnd={230}
+                      groupStart={200}
+                      items={
+                                            Array [
+                                                                  Array [
+                                                                    Object {
+                                                                      "end": 220,
+                                                                      "start": 200,
+                                                                      "title": "Cancer treatments",
+                                                                    },
+                                                                  ],
+                                                                  Array [
+                                                                    Object {
+                                                                      "end": 230,
+                                                                      "start": 205,
+                                                                      "title": "Qicong",
+                                                                    },
+                                                                  ],
+                                                                ]
+                      }
+                      unitWidth={16.666666666666668}
+/>,
+                  ],
+                ],
+                "className": "TimelineItemsGroupsWrapper",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "unitWidth": 200,
+                    "units": Array [
+                      2000,
+                      2001,
+                      2002,
+                      2003,
+                      2004,
+                      2005,
+                      2006,
+                      2007,
+                      2008,
+                      2009,
+                      2010,
+                      2011,
+                      2012,
+                      2013,
+                      2014,
+                      2015,
+                      2016,
+                      2017,
+                      2018,
+                      2019,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "timeine_items_group_0",
+                  "nodeType": "function",
+                  "props": Object {
+                    "groupEnd": 50,
+                    "groupStart": 5,
+                    "items": Array [
+                      Array [
+                        Object {
+                          "end": 50,
+                          "start": 5,
+                          "title": "Study of Bendamustine",
+                        },
+                      ],
+                    ],
+                    "unitWidth": 16.666666666666668,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "timeine_items_group_1",
+                  "nodeType": "function",
+                  "props": Object {
+                    "groupEnd": 160,
+                    "groupStart": 55,
+                    "items": Array [
+                      Array [
+                        Object {
+                          "end": 85,
+                          "start": 55,
+                          "title": "ASCT With Nivolumab",
+                        },
+                        Object {
+                          "end": 110,
+                          "start": 90,
+                          "title": "Qicong",
+                        },
+                        Object {
+                          "end": 160,
+                          "start": 140,
+                          "title": "Hypnotherappy",
+                        },
+                      ],
+                      Array [
+                        Object {
+                          "end": 72,
+                          "start": 60,
+                          "title": "Bortezomib",
+                        },
+                        Object {
+                          "end": 129,
+                          "start": 90,
+                          "title": "Bortezomib",
+                        },
+                      ],
+                      Array [
+                        Object {
+                          "end": 100,
+                          "start": 70,
+                          "title": "Study of Stockolm",
+                        },
+                      ],
+                      Array [
+                        Object {
+                          "end": 150,
+                          "start": 90,
+                          "title": "Continuation",
+                        },
+                      ],
+                    ],
+                    "unitWidth": 16.666666666666668,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "timeine_items_group_2",
+                  "nodeType": "function",
+                  "props": Object {
+                    "groupEnd": 190,
+                    "groupStart": 161,
+                    "items": Array [
+                      Array [
+                        Object {
+                          "end": 190,
+                          "start": 161,
+                          "title": "Cancer treatments",
+                        },
+                      ],
+                    ],
+                    "unitWidth": 16.666666666666668,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "timeine_items_group_3",
+                  "nodeType": "function",
+                  "props": Object {
+                    "groupEnd": 230,
+                    "groupStart": 200,
+                    "items": Array [
+                      Array [
+                        Object {
+                          "end": 220,
+                          "start": 200,
+                          "title": "Cancer treatments",
+                        },
+                      ],
+                      Array [
+                        Object {
+                          "end": 230,
+                          "start": 205,
+                          "title": "Qicong",
+                        },
+                      ],
+                    ],
+                    "unitWidth": 16.666666666666668,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "unitWidth": 200,
+                "units": Array [
+                  2000,
+                  2001,
+                  2002,
+                  2003,
+                  2004,
+                  2005,
+                  2006,
+                  2007,
+                  2008,
+                  2009,
+                  2010,
+                  2011,
+                  2012,
+                  2013,
+                  2014,
+                  2015,
+                  2016,
+                  2017,
+                  2018,
+                  2019,
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": Symbol(react.fragment),
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

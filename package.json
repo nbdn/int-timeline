@@ -1,0 +1,47 @@
+{
+  "name": "int-timeline",
+  "version": "0.1.0",
+  "homepage": "https://nbdn.github.io/int-timeline",
+  "private": true,
+  "dependencies": {
+    "enzyme": "3.3.0",
+    "enzyme-adapter-react-16": "1.1.1",
+    "flow-bin": "^0.66.0",
+    "gh-pages": "^1.1.0",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-scripts": "1.1.1",
+    "react-test-renderer": "16.2.0"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "eslint  src/**/* --fix",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "eslint  src/**/* --fix",
+    "test": "CI=true react-scripts test --env=jsdom  --testPathIgnorePatterns=/__tests__/*mock*",
+    "eject": "react-scripts eject",
+    "flow": "flow",
+    "precommit": "lint-staged"
+  },
+  "devDependencies": {
+    "eslint-plugin-flowtype": "^2.46.1",
+    "eslint-plugin-jest": "^21.13.0",
+    "eslint-plugin-react": "^7.7.0",
+    "husky": "^0.15.0-rc.8",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.11.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run flow && lint-staged && npm run test"
+    }
+  }
+}

@@ -1,0 +1,862 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimelineRule component test component rendering right render props right match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TimelineRule
+    unitWidth={150}
+    units={
+        Array [
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <TimelineRuleUnit
+          iUnit={0}
+          unit={2000}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={1}
+          unit={2001}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={2}
+          unit={2002}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={3}
+          unit={2003}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={4}
+          unit={2004}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={5}
+          unit={2005}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={6}
+          unit={2006}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={7}
+          unit={2007}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={8}
+          unit={2008}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={9}
+          unit={2009}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={10}
+          unit={2010}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={11}
+          unit={2011}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={12}
+          unit={2012}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={13}
+          unit={2013}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={14}
+          unit={2014}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={15}
+          unit={2015}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={16}
+          unit={2016}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={17}
+          unit={2017}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={18}
+          unit={2018}
+          unitWidth={150}
+/>,
+        <TimelineRuleUnit
+          iUnit={19}
+          unit={2019}
+          unitWidth={150}
+/>,
+      ],
+      "className": "TimelineRule",
+      "style": Object {
+        "width": 3000,
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "rule_unit_0",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 0,
+          "unit": 2000,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_1",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 1,
+          "unit": 2001,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_2",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 2,
+          "unit": 2002,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_3",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 3,
+          "unit": 2003,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_4",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 4,
+          "unit": 2004,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_5",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 5,
+          "unit": 2005,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_6",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 6,
+          "unit": 2006,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_7",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 7,
+          "unit": 2007,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_8",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 8,
+          "unit": 2008,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_9",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 9,
+          "unit": 2009,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_10",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 10,
+          "unit": 2010,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_11",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 11,
+          "unit": 2011,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_12",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 12,
+          "unit": 2012,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_13",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 13,
+          "unit": 2013,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_14",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 14,
+          "unit": 2014,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_15",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 15,
+          "unit": 2015,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_16",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 16,
+          "unit": 2016,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_17",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 17,
+          "unit": 2017,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_18",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 18,
+          "unit": 2018,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "rule_unit_19",
+        "nodeType": "function",
+        "props": Object {
+          "iUnit": 19,
+          "unit": 2019,
+          "unitWidth": 150,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <TimelineRuleUnit
+            iUnit={0}
+            unit={2000}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={1}
+            unit={2001}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={2}
+            unit={2002}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={3}
+            unit={2003}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={4}
+            unit={2004}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={5}
+            unit={2005}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={6}
+            unit={2006}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={7}
+            unit={2007}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={8}
+            unit={2008}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={9}
+            unit={2009}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={10}
+            unit={2010}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={11}
+            unit={2011}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={12}
+            unit={2012}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={13}
+            unit={2013}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={14}
+            unit={2014}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={15}
+            unit={2015}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={16}
+            unit={2016}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={17}
+            unit={2017}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={18}
+            unit={2018}
+            unitWidth={150}
+/>,
+          <TimelineRuleUnit
+            iUnit={19}
+            unit={2019}
+            unitWidth={150}
+/>,
+        ],
+        "className": "TimelineRule",
+        "style": Object {
+          "width": 3000,
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "rule_unit_0",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 0,
+            "unit": 2000,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_1",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 1,
+            "unit": 2001,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_2",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 2,
+            "unit": 2002,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_3",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 3,
+            "unit": 2003,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_4",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 4,
+            "unit": 2004,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_5",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 5,
+            "unit": 2005,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_6",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 6,
+            "unit": 2006,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_7",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 7,
+            "unit": 2007,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_8",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 8,
+            "unit": 2008,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_9",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 9,
+            "unit": 2009,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_10",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 10,
+            "unit": 2010,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_11",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 11,
+            "unit": 2011,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_12",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 12,
+            "unit": 2012,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_13",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 13,
+            "unit": 2013,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_14",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 14,
+            "unit": 2014,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_15",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 15,
+            "unit": 2015,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_16",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 16,
+            "unit": 2016,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_17",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 17,
+            "unit": 2017,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_18",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 18,
+            "unit": 2018,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "rule_unit_19",
+          "nodeType": "function",
+          "props": Object {
+            "iUnit": 19,
+            "unit": 2019,
+            "unitWidth": 150,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`TimelineRule component test component rendering right render with empty props match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TimelineRule
+    unitWidth={0}
+    units={Array []}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [],
+      "className": "TimelineRule",
+      "style": Object {
+        "width": 0,
+      },
+    },
+    "ref": null,
+    "rendered": Array [],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [],
+        "className": "TimelineRule",
+        "style": Object {
+          "width": 0,
+        },
+      },
+      "ref": null,
+      "rendered": Array [],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
